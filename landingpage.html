@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRouteAI - Women's Safety App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS for styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #89CFF0; /* Light blue */
+        }
+
+        header {
+            background: #E0B0FF; /* Light purple */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .feature {
+            text-align: center;
+            width: 30%;
+        }
+
+        .feature h2 {
+            color: #E0B0FF; /* Light purple */
+        }
+
+        .cta {
+            background: #E0B0FF; /* Light purple */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            background: #333;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta a:hover {
+            background: #555;
+        }
+
+        .map-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .feature {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SafeRouteAI</h1>
+        <p>Empowering Women's Safety on Every Walk</p>
+    </header>
+
+    <section class="hero">
+        <h1>Stay Safe, Stay Empowered</h1>
+        <p>Your trusted companion for safe walks</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Route Planning</h2>
+            <p>Get safe route suggestions based on real-time data and community feedback.</p>
+        </div>
+        <div class="feature">
+            <h2>Emergency Alerts</h2>
+            <p>Instantly alert trusted contacts in case of emergencies with just a click.</p>
+        </div>
+        <div class="feature">
+            <h2>Community Reporting</h2>
+            <p>Report incidents and share safety feedback to help others in the community.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to take control of your safety?</h2>
+        <p>Join our community and start your safe walking journey today!</p>
+        <a href="register.html">Get Started</a>
+    </section>
+
+    <section class="map-container">
+        <h2>Explore Your Safe Routes</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509962!2d144.95373531566566!3d-37.81627997975127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11d199%3A0x5045675218ceed0!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1630913562187!5m2!1sen!2sau"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SafeRouteAI. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
